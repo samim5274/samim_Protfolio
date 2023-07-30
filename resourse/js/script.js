@@ -17,3 +17,10 @@ window.onscroll = () => {
         };
     });
 };
+
+
+// ========================= sticky menu navbar ======================
+
+
+let header = document.querySelector('header');
+header.classList.toggle('sticky',window.scrollY > 100);
